@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-// import IntroRoute from './modules/intro';
-// import CatalogRoute from './modules/catalog';
+import CatalogRoute from './modules/catalog';
 import ApplyRoute from './modules/apply';
-// import NoticeRoute from './modules/notice';
+import IntroRoute from './modules/intro';
+import NoticeRoute from './modules/notice';
 
 Vue.use(VueRouter);
 
@@ -14,10 +14,10 @@ const routes = [
     name: 'Home',
     // component: Home,
   },
-  // IntroRoute,
-  // CatalogRoute,
+  IntroRoute,
+  CatalogRoute,
   ApplyRoute,
-  // NoticeRoute,
+  NoticeRoute,
 ];
 
 const router = new VueRouter({
