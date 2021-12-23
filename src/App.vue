@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-    <full></full>
     <router-view/>
   </div>
 </template>
 
 <script>
-import Full from '@/container/Full.vue';
-
 export default {
   name: 'App',
-  components: {
-    Full,
-  },
 };
 </script>
 
